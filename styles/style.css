@@ -229,7 +229,7 @@ margin-left: -20px;
 
     li, a, button{
         display: inline-block;
-        margin-bottom: 2px;
+        margin-bottom: 5px;
         text-align: center;
         width: 100%;
     }
@@ -244,9 +244,11 @@ margin-left: -20px;
     }
 
     .info #title{
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin-left: 30px;
         width: 100%;
         align-items: center;
+        margin-bottom: 20px;
     }
 
     .info .motives{
@@ -254,7 +256,7 @@ margin-left: -20px;
         font-size: 1.25rem;
         width: 80%;
         text-align: justify;
-        bottom: 100px;
+        margin-bottom: 20px;
     }
     
 
@@ -262,7 +264,9 @@ margin-left: -20px;
     .formContainer{
        width: 80%;
        height: 50%;
-        margin-right: 50px;
+       margin-right: 50px;
+       margin-bottom: 30px;
+       margin-top: 20px;
     }
 
     /*EQUIPE*/
@@ -270,7 +274,6 @@ margin-left: -20px;
 
 
     .imageContainer{
-        float: none;
         color: white;
         width: 100%;
         margin: auto;
@@ -286,5 +289,6 @@ margin-left: -20px;
     .photo{
       width: 100%;
       margin: 0 auto;
+      margin-bottom: 30px;
     }
 }
