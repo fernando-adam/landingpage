@@ -101,12 +101,12 @@ button:hover {
 
 
 .formContainer{
-    width: 330px;
+    width: 300px;
     height: 500px;
     background-color: #bc133e;
     padding: 20px;
     float: right;
-    margin-top: 25px;
+    margin-top: 100px;
     margin-right: 170px;
     border-radius: 7px;
 }
