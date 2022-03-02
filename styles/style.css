@@ -19,7 +19,7 @@ body{
 /*HEADER STYLE*/
 header{
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
@@ -79,7 +79,7 @@ button:hover {
 .info{
     float: left;
     color: white;
-    width: 1200px;
+    width: 50%;
     height: 400px;
     margin-top: 100px;
     margin-left: 70px;
@@ -107,14 +107,14 @@ button:hover {
 
 
 .formContainer{
-    width: 300px;
-    height: 500px;
+    width: 30%;
+    height: 400px;
     background-color: #bc133e;
     padding: 20px;
     float: right;
-    margin-top: 100px;
-    margin-right: 170px;
     border-radius: 7px;
+    margin-right: 2rem;
+    margin-top: 100px;
 }
 
 h4{
@@ -200,14 +200,20 @@ margin-bottom: 30px;
 margin-left: -20px;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
  
+
    .container{
-       width: 300px;
+       width: 99%;
+       margin: 0 auto;
+   }
+
+   body{
+       width: 100%;
    }
 
     header{
-        width: 400px;
+        width: 100%;
         display: block;
     }
 
@@ -227,52 +233,57 @@ margin-left: -20px;
     }
 
     .info{
-        float: none;
+        float: left;
         color: white;
-        width: 100%;
+        width: 90%;
         margin-top: 20px;
-        margin-left: 20px;
-        padding: 5px;
+        margin-left: 10px;
+        padding: 1px;
+        margin-bottom: 45%;
     }
 
     .info #title{
-        font-size: 3rem;
+        font-size: 2.5rem;
         width: 100%;
         align-items: center;
     }
-    
-    .info .motives{
-        font-size: 1.5rem;
-        text-align: justify;
-        width: 100%;
-        margin-bottom: 20px;
 
+    .info .motives{
+        position: relative;
+        font-size: 1.25rem;
+        width: 80%;
+        text-align: justify;
+        bottom: 100px;
     }
+    
 
     /*FORM*/
     .formContainer{
-        width: 300%;
-        height: 100%;
-        background-color: #bc133e;
-        padding: 20px;
-        float: none;
-        margin-top: 300px;
-        margin-left: 100px;
+       width: 80%;
+       height: 80%;
+       margin: 0 auto;
+       margin-right: 3rem;
     }
 
     /*EQUIPE*/
+
+
+
     .imageContainer{
         float: none;
         color: white;
         width: 100%;
-        margin-left: 150px;
-        margin-top: 50px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .imageContainer h1{
+        width: 90%;
+        margin: auto;
     }
 
     .photo{
-        float: none;
-        margin-left: 2.5rem;
-        text-align: center;
-        margin-bottom: 10px;
+      width: 100%;
+      margin: 0 auto;
     }
 }
