@@ -7,7 +7,7 @@
 }
 
 .container{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@ button:hover {
     position: relative;
     margin-top: 20px;
     bottom: 0;
-    list-style:circle
+    margin-left: 40px;
 }
 
 .info #title{
@@ -174,7 +174,7 @@ input[type="submit"]:hover{
     color: white;
     width: 1000px;
     margin-left: auto;
-    margin-top: 0;
+    margin-top: 70px;
 
 }
 
